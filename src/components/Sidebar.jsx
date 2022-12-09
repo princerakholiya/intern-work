@@ -53,6 +53,7 @@ const Aside = styled.section`
     color: white;
     font-size: 1.5rem;
     justify-content: left;
+    
   }
 
   .links {
