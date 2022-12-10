@@ -23,13 +23,13 @@ const Section = styled.section`
   align-items: center;
   background-color: black;
   margin-top: 25px;
-  margin-left: 365px;
-  margin-right: 813px;
+  margin-left: 350px;
+  margin-right: 800px;
   justify-content: center;
   gap: 1rem;
   padding-bottom: 1rem;
   box-shadow: inset 0px 4px 26px rgba(252, 252, 252, 0.25);
-border-radius: 20px;
+border-radius: 15px;
   .image {
     img {
       height: 1.5rem;
@@ -41,7 +41,8 @@ border-radius: 20px;
   .text {
     font-size: 15px;
     text-align: center;
-    margin-top: 15px;  
+    margin-top: 15px; 
+    margin-left: -5px; 
   }
   
 `;
