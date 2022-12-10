@@ -16,7 +16,7 @@ export default function App() {
 
 const Div = styled.div`
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   min-height: 100vh;
   height: max-content;
 `;

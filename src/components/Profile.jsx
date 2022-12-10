@@ -28,12 +28,17 @@ const Section = styled.section`
   gap: 1rem;
   padding-bottom: 1rem;
   .image {
+    box-shadow: inset 0px 4px 20px rgba(170, 170, 170, 0.25);
+    border-radius: 100px;
+    height: 4rem;
+    width:4rem;
+      cursor: pointer;
     img {
-      height: 4rem;
-     
-      background: #000000;
-box-shadow: inset 0px 4px 20px rgba(170, 170, 170, 0.25);
-border-radius: 100%;
+      height: 2.5rem;
+      margin-top:12.5px;
+      margin-left:10.5px;
+      
+
     }
   }
   #name {

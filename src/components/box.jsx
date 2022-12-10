@@ -23,7 +23,7 @@ const Section = styled.section`
   align-items: center;
   background-color: black;
   margin-top: 25px;
-  margin-left: 393px;
+  margin-left: 365px;
   margin-right: 813px;
   justify-content: center;
   gap: 1rem;

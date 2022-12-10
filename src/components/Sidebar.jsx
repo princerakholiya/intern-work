@@ -7,6 +7,7 @@ import { BiBookContent } from 'react-icons/bi';
 import { SiSimpleanalytics } from 'react-icons/si';
 import { CgProfile } from 'react-icons/cg';
 import { BsPlusCircleFill } from 'react-icons/bs';
+
 function Sidebar() {
   return (
     <Aside id="sidebar">
@@ -16,7 +17,7 @@ function Sidebar() {
             </div>
       <ul className="links">
         <li>
-          <MdDashboard />   Dashboard
+          <MdDashboard />Dashboard
         </li>
         <li>
           <BiBookContent /> Content
@@ -31,6 +32,7 @@ function Sidebar() {
           <CgProfile /> Profile
         </li>
       </ul>
+      
       <div classname="plus">
         <BsPlusCircleFill />
       </div>
@@ -53,8 +55,10 @@ const Aside = styled.section`
     color: white;
     font-size: 1.5rem;
     justify-content: left;
+    margin-right: 5px;
     
   }
+
 
   .links {
     margin-bottom: 100px;
